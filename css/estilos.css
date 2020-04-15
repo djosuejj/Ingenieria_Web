@@ -1,0 +1,45 @@
+html,body {
+    height:100%;
+}
+
+header #logo{
+      
+    
+    background:#286af0;
+    height: 6em;
+	padding: 0.5em 1em;
+}
+
+section nav b{
+	text-decoration: none;
+	padding: 0.5em 1em;
+	color: #F8F8FC;
+}
+section nav b{
+	background: #1EECE9;
+	color:#2A36D9;
+	border-bottom: 2px solid #000;
+	border-radius: 5em;
+}
+
+section #sponsors{
+	position: relative;
+    margin-top: -50px;
+    height: 80px; 
+    padding:5px 0px;
+    clear: both;
+    background: #B9F9EA;
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    position: relative;
+    margin-top: 100px;
+    height: 50px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
