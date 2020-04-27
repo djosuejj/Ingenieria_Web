@@ -1,23 +1,22 @@
 *{
 	padding: 0;
-	margin: 0;  //todos los bordes desde 0
+	margin: 0; 
 }
 body{
 	font-family: Arial;
 	background-color: #e2e0e0;
 
 }
-header.cabeceraPrincipal, nav.menuPrincipal,section.galeriaPrincipal{
+header.cabeceraPrincipal, nav.menuPrincipal,section.galeriaPrincipal,aside.sponsor,footer{
 	background-color: chartreuse;
-	color: rgb(47, 83, 10);
+	color: rgb(83, 10, 40);
 	width: 90%;
-	margin: 0 auto;  //Centrar el cuadro de cabecera
+	margin: 0 auto;  
 }
 header.cabeceraPrincipal h1{
-	padding: 1em;     //Bordes
+	padding: 1em;     
 	width: 20%;
 	display: inline-block;
-
 }
 section.seccionCabecera{
 	width: 70%;
@@ -28,10 +27,43 @@ nav.menuPrincipal{
 	margin-top: 2px;
 	text-align: center;
 }
-nav.menuPrincipal{
-	padding: 1em;  //div pongale un espacio
+nav.menuPrincipal div{
+	padding: 1em;  
 }
 section.galeriaPrincipal{
 	margin-top: 2px;
 	height: 450px;
+}
+section.noticias1{
+	background-color: rgb(34, 114, 179);
+	color: rgb(83, 10, 40);
+	text-align: center;
+	width: 45%;
+	height: 300px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 2px;
+	
+}
+section.noticias2{
+	background-color: rgb(39, 170, 202);
+	color: rgb(83, 10, 40);
+	text-align: center;
+	width: 45%;
+	height: 300px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+aside.sponsor{
+	margin-top: 4px;
+	text-align: center;
+	height: 100px;
+	float: left;
+}
+footer{
+	margin-top: 2px;
+	text-align: center;
+	height: 25px;
+	float: left;
 }
