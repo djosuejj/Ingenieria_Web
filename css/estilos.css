@@ -1,45 +1,37 @@
-html,body {
-    height:100%;
+*{
+	padding: 0;
+	margin: 0;  //todos los bordes desde 0
 }
+body{
+	font-family: Arial;
+	background-color: #e2e0e0;
 
-header #logo{
-      
-    
-    background:#286af0;
-    height: 6em;
-	padding: 0.5em 1em;
 }
+header.cabeceraPrincipal, nav.menuPrincipal,section.galeriaPrincipal{
+	background-color: chartreuse;
+	color: rgb(47, 83, 10);
+	width: 90%;
+	margin: 0 auto;  //Centrar el cuadro de cabecera
+}
+header.cabeceraPrincipal h1{
+	padding: 1em;     //Bordes
+	width: 20%;
+	display: inline-block;
 
-section nav b{
-	text-decoration: none;
-	padding: 0.5em 1em;
-	color: #F8F8FC;
 }
-section nav b{
-	background: #1EECE9;
-	color:#2A36D9;
-	border-bottom: 2px solid #000;
-	border-radius: 5em;
+section.seccionCabecera{
+	width: 70%;
+	display: inline-block;
+	text-align: right;
 }
-
-section #sponsors{
-	position: relative;
-    margin-top: -50px;
-    height: 80px; 
-    padding:5px 0px;
-    clear: both;
-    background: #B9F9EA;
-    text-align: center;
-    color: #fff;
+nav.menuPrincipal{
+	margin-top: 2px;
+	text-align: center;
 }
-
-footer {
-    position: relative;
-    margin-top: 100px;
-    height: 50px; 
-    padding:5px 0px;
-    clear: both;
-    background: #286af0;
-    text-align: center;
-    color: #fff;
+nav.menuPrincipal{
+	padding: 1em;  //div pongale un espacio
+}
+section.galeriaPrincipal{
+	margin-top: 2px;
+	height: 450px;
 }
